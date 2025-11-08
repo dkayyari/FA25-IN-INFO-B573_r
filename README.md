@@ -52,23 +52,37 @@ source("Assignment_R_Base_Deeksha_Kayyari.R")
  ## output summary
 
 -Successfully read and cleaned the DNA sequence from chr1_GL383518v1_alt.fa.
+
 -Displayed the 10th and 758th bases from the original sequence.
--Generated the reverse complement of the DNA sequence using Watson–Crick–Franklin base pairing (A↔T, C↔G).
+
+-Generated the reverse complement of the DNA sequence using Watson–Crick–Franklin base pairing (A-T, C-G).
+
 -Displayed the 79th base and the 500th–800th bases of the reverse complement.
+
 -Created a list (dictionary) showing the number of A, C, G, and T bases in each kilobase (1000 bases) of the sequence.
+
 -Displayed the first five kilobase entries to verify correct list structure.
+
 -Converted the nested list into a data frame containing columns for A, C, G, T, and the calculated Sum per kilobase.
+
 -Verified that each kilobase’s total equals the expected 1000 bases, with exceptions explained (partial final segment or removed invalid bases).
+
 -Provided an interpretation section explaining observed discrepancies in total counts and confirming the overall data integrity.
+
 -Output displays are clearly labeled for each section (1a–4e) to match assignment requirements.
+
 -Program concludes with a message indicating successful execution.
 
 ### Notes
 
 -The script uses Base R only and includes clear function-based modular design.
+
 -Performs case-insensitive cleaning and counting for accurate base analysis.
+
 -Includes robust error handling for missing or invalid FASTA files.
+
 -Explains any discrepancies in kilobase sums directly in the console output.
+
 -Ideal for learning loops, lists, and conditionals in Base R bioinformatics tasks.
 
 
